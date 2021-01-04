@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>Algorytm Luhna</h1>
+
+<div class="container">
+
+    <label class="label" for="enteredNumbers" >Ciąg cyfr: </label><br><br>
+    <input type="number" id="enteredNumbers"> <br><br><br>
+
+    <button id="loadCheckDigitButton" class="button" onclick="loadCheckDigit();">Wylicz cyfrę kontrolną</button> <br><br><br>
+
+    <label class="label" for="checkDigit" >Cyfra kontrolna: </label><br><br>
+    <input type="text" id="checkDigit"> <br><br><br>
+
+    <label class="label" for="readyNumber" >Liczba wraz z cyfrą kontrolną: </label><br><br>
+    <input type="text" id="readyNumber"> <br><br><br>
+
+    <button id="checkCheckDigitButton" class="button" onclick="checkCheckDigit();">Sprawdź cyfrę kontrolną</button><br><br><br>
+
+    <div id="verifyBox"><p id="verifyText"></p></div>
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
